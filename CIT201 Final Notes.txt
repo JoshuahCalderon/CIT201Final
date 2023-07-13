@@ -1,0 +1,125 @@
+Nmap Report for 10.0.2.51-54
+
+10.0.2.51
+
+22/tcp ssh
+
+10.0.2.52
+
+22/tcp ssh 
+
+80/tcp http Apache
+
+3306/tcp MySQL
+
+10.0.2.53
+
+21/tcp ftp
+22/tcp ssh
+80/tcp http OWASP Juice Shop
+
+10.0.2.54
+
+80/tcp http WordPress 
+7744/tcp ssh
+
+Directory Report:
+
+10.0.2.51 Main Directory
+
+.                 .config          Downloads      index.html.1  .ophcrackrc   Tables     .Xauthority
+..                dc2.54.txt       .face          .java         Pictures      Templates  .xsession-errors
+.bash_logout      dc2wordlist.txt  .face.icon     .local        .profile      users.txt  .xsession-errors.old
+.bashrc           Desktop          .gnupg         .mozilla      Public        Videos     .zsh_history
+.bashrc.original  .dmrc            .ICEauthority  .msf4         rickroll.mp4  .viminfo   .zshrc
+.cache            Documents        index.html     Music         .ssh          .wpscan
+
+
+10.0.2.52 Main Directory
+
+10.0.2.53 Main Directory
+
+10.0.2.54 Main Directory
+
+
+Made Capture the Flag directory called FinalCTF and flag called Flag.txt
+
+mkdir FinalCTF and nano Flag.txt
+
+
+List of Users on VM 10.0.2.51
+
+$ awk -F: '{ print $1}' /etc/passwd
+
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+_apt
+systemd-timesync
+systemd-network
+systemd-resolve
+mysql
+tss
+strongswan
+ntp
+redsocks
+rwhod
+iodine
+messagebus
+miredo
+_rpc
+usbmux
+tcpdump
+rtkit
+sshd
+dnsmasq
+statd
+avahi
+stunnel4
+Debian-snmp
+speech-dispatcher
+sslh
+postgres
+nm-openvpn
+nm-openconnect
+pulse
+saned
+inetsim
+lightdm
+colord
+geoclue
+king-phisher
+kali
+
+Network Status
+
+netstat, netstat -i, ifconfig, nmcli, tcpdump --list-interfaces 
+
+Changed Kali Passwd
+
+Changed Root Passwd
+
+Removed Unneccessary files 
+
+Chmod read only 
+
+
+
+
+
+
