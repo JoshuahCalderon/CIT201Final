@@ -119,6 +119,9 @@ Removed Unneccessary files
 Chmod read only 
 
 
+After spending about 30minutes trying to reaccess kali@10.0.2.51 I was unable to successfully login to the machine. However, after reviewing reports from the discord this machine was not accessed and the flag not captured. So although I virtually cannot access .51 over ssh, the flag itself was also kept from hackers and as the theoritical owner, I would be able to physically revert the change on .51 so that I could be able to login once again. 
+
+
 
 
 
